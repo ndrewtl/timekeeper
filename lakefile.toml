@@ -1,0 +1,14 @@
+name = "timekeeper"
+version = "0.1.0"
+defaultTargets = ["Timekeeper"]
+
+[[lean_lib]]
+name = "Timekeeper"
+
+[[lean_exe]]
+name = "timekeeper"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"

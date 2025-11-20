@@ -1,0 +1,29 @@
+-- Notation hierarchy
+-- This file is essentially a big comment explaining the ordering of notation in this formalization
+-- Each tier runs from 0-9, ie tier 270 runs from 270 to 279, inclusive
+
+-- Tier |      Category
+-------------------------------
+-- 390  | Numeric Constructors
+-- 380  | --
+-- 370  | Term Replacement
+-- 360  | --
+-- 350  | Boolean Expression Constructors
+-- 340  | --
+-- 330  | Evaluation Notation
+-- 320  | --
+-- 310  | Trace Assertions
+-- 300  | --
+-- 290  | GeneralAssertions
+-- 280  | --
+-- 270  | Logical connectives
+-- 260  | --
+-- 250  | Commands
+-- 240  | --
+-- 230  | Hoare Triple notation
+-- 220  | --
+-- 210  | Modeling Relation
+-- 200  | --
+-- 190  | Small step semantics
+-- 180  | --
+-- 170  | Big-step semantics
