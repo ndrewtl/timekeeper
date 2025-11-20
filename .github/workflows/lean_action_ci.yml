@@ -1,0 +1,17 @@
+name: Lean Action CI
+
+on:
+  # Run on every commit to main
+  push:
+    branches: [main]
+  # And whenever a pull request is created or updated
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
